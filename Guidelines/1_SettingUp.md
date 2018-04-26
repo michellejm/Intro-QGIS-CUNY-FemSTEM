@@ -53,7 +53,7 @@ In order to construct our map within QGIS we will need to add our data layers to
 
 ![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_01.png) 
 
-**Select** the `nyct2010.shp` file. A map should appear in the data window of QGIS (yours will likely be a different color)
+**Select** the `acs_shape.shp` file. A map should appear in the data window of QGIS (yours will likely be a different color)
 
 ![map](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_02.png)
 
@@ -78,13 +78,42 @@ Notice that the number in the bottom right hand corner reflects the new CRS.
 
 Now we will add all of the other shapefiles. 
 
-Again, **click** on the `Add Vector Layer` button, and add the `nyc_nta.shp`,  `mta_stations`, and `mta_lines`.
+Again, **click** on the `Add Vector Layer` button, and add the 
+* `nyc_nta.shp`,  
+* `mta_stations`, and 
+* `mta_lines`.
 
-![vector](https://github.com/CenterForSpatialResearch/MappingForTheUrbanHumanities_2018/blob/master/Images/mappingdata01_02.png)
 
 Once you add all of the files, your map should look something like this. If all 4 layers appear in the Layers Panel, but you can't see the subway lines or the stations, rearrange the order by dragging and dropping them in the Layers Panel.
 
-![vector](https://github.com/CenterForSpatialResearch/MappingForTheUrbanHumanities_2018/blob/master/Images/mappingdata01_09.png)
+![map](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_09.png)
+
+Now we want to add the population data. 
+
+Click on the `Add Delimited Text Layer` button, and make the following selections:
+* File Name: FemSTEM/Data/Tabular/nyc_population-by-tract_2013.csv
+* File format: CSV
+* Geometry definition: No geometry
+* `OK`
+
+![map](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_10.png) 
+
+New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
