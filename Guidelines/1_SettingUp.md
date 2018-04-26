@@ -41,9 +41,11 @@ In order to construct our map within QGIS we will need to add our data layers to
 * .prj - The file that stores the coordinate system information.
 * For more information on these extensions and others see [this explanation by ESRI](http://webhelp.esri.com/arcgisdesktop/9.2/index.cfm?TopicName=Shapefile_file_extensions).
 
-![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/Images/femstem01_01.png) 
+![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_02.png) 
 
 Select the `nyct2010.shp` file. A map should appear in the data window of QGIS (yours will likely be a different color)
 
-![map](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/Images/femstem01_01.png)
+![map](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_01.png)
 
+
+###
