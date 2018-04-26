@@ -200,6 +200,8 @@ Finally use one of the export options circled in blue above to save the map comp
 
 You can modify the subway lines and stations as you wish. In the next half of the tutorial, we will take this Project and use it to figure out how many people live within 1/2 mile of the subways.
 
+![map](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem01_21.png)
+
 
 ______________________________________________________________________________________________________________
 
