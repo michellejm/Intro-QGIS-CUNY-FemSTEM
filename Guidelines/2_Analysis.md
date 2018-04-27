@@ -7,16 +7,30 @@ In this part of the Hack, we are going to answer questions about how many people
 
 Start by opening a **NEW** QGIS Project. For the next part, the CRS of all of our files must match from the beginning. Therefore, there was a fair amount of data cleaning before this step. 
 
+### Set Up
+
+For this project, we need two data layers:
+
+- subway entrances and population by census tract
+
+Click on the `Add Vector Layer` button and add the following data layers from the Data/Shape/Part2 Folder:
+* nyctracts_popjoin
+* subway_entrances_May2016
+* (you can optionally add the subway lines if you would like)
+
+Change the project projection to CRS 2263: NAD83 / New York Long Island (ftUS). Notice that this projection is in feet, this will be important for us later.
+
+
 ### Analysis
 
-
-When we left off, we had uploaded all of our data and visualized population, but had not yet done any analysis. To answer our question, we will draw circles 1/3 mile in radius around each subway station. We will then figure out how many people are in the census tracts that touch those stations. 
+When we left off, we had visualized population, but had not yet done any analysis. To answer our questions about how many people have easy access to the subway, we will draw circles 1/3 mile in radius around each subway station. We will then figure out how many people are in the census tracts that touch those stations. 
 
 We will see why that approximation doesn't really work. Then we will make an approximation that tries to take into account what percentage of each census tract is within that buffer.
 
 #### Making Buffers
+Let's start with setting up buffers around our stations. 
 
-Click on the mta_stations layer, and navigate to  Vector >> Geoprocessing Tools >> Buffers
+Click on the subway_entrances layer, and navigate to  Vector >> Geoprocessing Tools >> Buffers
 
 ![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_02.png)
 
@@ -34,7 +48,7 @@ The CRS of the stations layer is in feet, and 1584 is 1/3 of a mile.
 
 #### Basic Analysis 
 
-First, we would like to know which tracts have more than 15000 people living in them. 
+First, we would like to know which tracts have more than 12000 people living in them. 
 
 * **Right Click** on the nyc_tracts_popJoin layer and select `Open Attribute Table`. 
 * Click on the `Select Features by Expression` button
@@ -91,7 +105,7 @@ Again navigate to Vector >> Research Tools >> Select By Location
 
 Select features in nyctracts_popJoin that intersect features in subwaybuffers
 
-![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_11.png)
+![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_10.png)
 
 We can already tell that adding up the people in these tracts will be a very rough estimate. Both because some people are counted twice, and people who are outside the boundaries are counted
 
