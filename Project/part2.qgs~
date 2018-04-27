@@ -3,18 +3,21 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="stationbuffers20180426210012073" source="/Users/mam/Workshops/FemSTEM/Broken/Data/Shape/Part2/stationbuffers.shp" name="stationbuffers">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="stationbuffers20180426210012073" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/stationbuffers.shp" name="stationbuffers">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="subway_entrances_may201620180426204828944" source="/Users/mam/Workshops/FemSTEM/Broken/Data/Shape/subway_entrances_may2016.shp" name="subway_entrances_may2016">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="subway_entrances_may201620180426204828944" source="/Users/mam/Workshops/FemSTEM/Data/Shape/subway_entrances_may2016.shp" name="subway_entrances_may2016">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="nyctracts_popjoined20180426205109681" source="/Users/mam/Workshops/FemSTEM/Broken/Data/Shape/Part2/nyctracts_popjoined.shp" name="nyctracts_popjoined">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="nycTracts_clip20180426212613918" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nycTracts_clip.shp" name="nycTracts_clip">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ACS_5YR_2015_JoinedNYCtracts20180426204806437" source="/Users/mam/Workshops/FemSTEM/Broken/Data/Shape/Part2/ACS_5YR_2015_JoinedNYCtracts.geojson" name="ACS_5YR_2015_JoinedNYCtracts OGRGeoJSON MultiPolygon">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="nyctracts_popjoined20180426205109681" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nyctracts_popjoined.shp" name="nyctracts_popjoined">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ACS_5YR_2015_JoinedNYCtracts20180426204806437" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/ACS_5YR_2015_JoinedNYCtracts.geojson" name="ACS_5YR_2015_JoinedNYCtracts OGRGeoJSON MultiPolygon">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -23,7 +26,7 @@
     <units>feet</units>
     <extent>
       <xmin>923411.81753515708260238</xmin>
-      <ymin>131895.22243151403381489</ymin>
+      <ymin>131895.22243151406291872</ymin>
       <xmax>1143592.32196218380704522</xmax>
       <ymax>292677.69757283374201506</ymax>
     </extent>
@@ -53,27 +56,33 @@
       <item>subway_entrances_may201620180426204828944</item>
       <item>nyctracts_popjoined20180426205109681</item>
       <item>stationbuffers20180426210012073</item>
+      <item>nycTracts_clip20180426212613918</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="stationbuffers" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="stationbuffers" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="stationbuffers20180426210012073" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="stationbuffers20180426210012073" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="subway_entrances_may2016" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="subway_entrances_may2016" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="subway_entrances_may201620180426204828944" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="subway_entrances_may201620180426204828944" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nyctracts_popjoined" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nycTracts_clip" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="nyctracts_popjoined20180426205109681" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="nycTracts_clip20180426212613918" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ACS_5YR_2015_JoinedNYCtracts OGRGeoJSON MultiPolygon" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nyctracts_popjoined" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ACS_5YR_2015_JoinedNYCtracts20180426204806437" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="nyctracts_popjoined20180426205109681" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ACS_5YR_2015_JoinedNYCtracts OGRGeoJSON MultiPolygon" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="ACS_5YR_2015_JoinedNYCtracts20180426204806437" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -86,7 +95,7 @@
         <ymax>272844.29400634765625</ymax>
       </extent>
       <id>ACS_5YR_2015_JoinedNYCtracts20180426204806437</id>
-      <datasource>../Broken/Data/Shape/Part2/ACS_5YR_2015_JoinedNYCtracts.geojson</datasource>
+      <datasource>../Data/Shape/Part2/ACS_5YR_2015_JoinedNYCtracts.geojson</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -150,6 +159,123 @@
         <edittype widgetv2type="TextEdit" name="Total">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="Spanish">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="French">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FrCreole">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Italian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Portuguese">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="German">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Yiddish">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OWGermanic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Scandinavi">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Greek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Russian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Polish">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SerbCroat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OSlavic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Armenian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Persian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Gujarati">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Hindi">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Urdu">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OIndic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OIndoEuro">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Chinese">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Japanese">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Korean">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MonKhmer">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Hmong">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Thai">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Laotian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Vietnamese">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OAsian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Tagalog">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OPacIsland">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Navajo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OAmerIndia">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Hungarian">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Arabic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Hebrew">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="African">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OOther">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -157,6 +283,316 @@
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="51,168,129,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>BoroName</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="CTLabel" index="0" name=""/>
+        <alias field="BoroCode" index="1" name=""/>
+        <alias field="BoroName" index="2" name=""/>
+        <alias field="CT2010" index="3" name=""/>
+        <alias field="BoroCT2010" index="4" name=""/>
+        <alias field="CDEligibil" index="5" name=""/>
+        <alias field="NTACode" index="6" name=""/>
+        <alias field="NTAName" index="7" name=""/>
+        <alias field="PUMA" index="8" name=""/>
+        <alias field="Shape_Leng" index="9" name=""/>
+        <alias field="Shape_Area" index="10" name=""/>
+        <alias field="Census_ID" index="11" name=""/>
+        <alias field="Total" index="12" name=""/>
+        <alias field="Spanish" index="13" name=""/>
+        <alias field="French" index="14" name=""/>
+        <alias field="FrCreole" index="15" name=""/>
+        <alias field="Italian" index="16" name=""/>
+        <alias field="Portuguese" index="17" name=""/>
+        <alias field="German" index="18" name=""/>
+        <alias field="Yiddish" index="19" name=""/>
+        <alias field="OWGermanic" index="20" name=""/>
+        <alias field="Scandinavi" index="21" name=""/>
+        <alias field="Greek" index="22" name=""/>
+        <alias field="Russian" index="23" name=""/>
+        <alias field="Polish" index="24" name=""/>
+        <alias field="SerbCroat" index="25" name=""/>
+        <alias field="OSlavic" index="26" name=""/>
+        <alias field="Armenian" index="27" name=""/>
+        <alias field="Persian" index="28" name=""/>
+        <alias field="Gujarati" index="29" name=""/>
+        <alias field="Hindi" index="30" name=""/>
+        <alias field="Urdu" index="31" name=""/>
+        <alias field="OIndic" index="32" name=""/>
+        <alias field="OIndoEuro" index="33" name=""/>
+        <alias field="Chinese" index="34" name=""/>
+        <alias field="Japanese" index="35" name=""/>
+        <alias field="Korean" index="36" name=""/>
+        <alias field="MonKhmer" index="37" name=""/>
+        <alias field="Hmong" index="38" name=""/>
+        <alias field="Thai" index="39" name=""/>
+        <alias field="Laotian" index="40" name=""/>
+        <alias field="Vietnamese" index="41" name=""/>
+        <alias field="OAsian" index="42" name=""/>
+        <alias field="Tagalog" index="43" name=""/>
+        <alias field="OPacIsland" index="44" name=""/>
+        <alias field="Navajo" index="45" name=""/>
+        <alias field="OAmerIndia" index="46" name=""/>
+        <alias field="Hungarian" index="47" name=""/>
+        <alias field="Arabic" index="48" name=""/>
+        <alias field="Hebrew" index="49" name=""/>
+        <alias field="African" index="50" name=""/>
+        <alias field="OOther" index="51" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="CTLabel"/>
+          <column width="-1" hidden="0" type="field" name="BoroCode"/>
+          <column width="-1" hidden="0" type="field" name="BoroName"/>
+          <column width="-1" hidden="0" type="field" name="CT2010"/>
+          <column width="-1" hidden="0" type="field" name="BoroCT2010"/>
+          <column width="-1" hidden="0" type="field" name="CDEligibil"/>
+          <column width="-1" hidden="0" type="field" name="NTACode"/>
+          <column width="-1" hidden="0" type="field" name="NTAName"/>
+          <column width="-1" hidden="0" type="field" name="PUMA"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Leng"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Area"/>
+          <column width="-1" hidden="0" type="field" name="Census_ID"/>
+          <column width="-1" hidden="0" type="field" name="Total"/>
+          <column width="-1" hidden="0" type="field" name="Spanish"/>
+          <column width="-1" hidden="0" type="field" name="French"/>
+          <column width="-1" hidden="0" type="field" name="FrCreole"/>
+          <column width="-1" hidden="0" type="field" name="Italian"/>
+          <column width="-1" hidden="0" type="field" name="Portuguese"/>
+          <column width="-1" hidden="0" type="field" name="German"/>
+          <column width="-1" hidden="0" type="field" name="Yiddish"/>
+          <column width="-1" hidden="0" type="field" name="OWGermanic"/>
+          <column width="-1" hidden="0" type="field" name="Scandinavi"/>
+          <column width="-1" hidden="0" type="field" name="Greek"/>
+          <column width="-1" hidden="0" type="field" name="Russian"/>
+          <column width="-1" hidden="0" type="field" name="Polish"/>
+          <column width="-1" hidden="0" type="field" name="SerbCroat"/>
+          <column width="-1" hidden="0" type="field" name="OSlavic"/>
+          <column width="-1" hidden="0" type="field" name="Armenian"/>
+          <column width="-1" hidden="0" type="field" name="Persian"/>
+          <column width="-1" hidden="0" type="field" name="Gujarati"/>
+          <column width="-1" hidden="0" type="field" name="Hindi"/>
+          <column width="-1" hidden="0" type="field" name="Urdu"/>
+          <column width="-1" hidden="0" type="field" name="OIndic"/>
+          <column width="-1" hidden="0" type="field" name="OIndoEuro"/>
+          <column width="-1" hidden="0" type="field" name="Chinese"/>
+          <column width="-1" hidden="0" type="field" name="Japanese"/>
+          <column width="-1" hidden="0" type="field" name="Korean"/>
+          <column width="-1" hidden="0" type="field" name="MonKhmer"/>
+          <column width="-1" hidden="0" type="field" name="Hmong"/>
+          <column width="-1" hidden="0" type="field" name="Thai"/>
+          <column width="-1" hidden="0" type="field" name="Laotian"/>
+          <column width="-1" hidden="0" type="field" name="Vietnamese"/>
+          <column width="-1" hidden="0" type="field" name="OAsian"/>
+          <column width="-1" hidden="0" type="field" name="Tagalog"/>
+          <column width="-1" hidden="0" type="field" name="OPacIsland"/>
+          <column width="-1" hidden="0" type="field" name="Navajo"/>
+          <column width="-1" hidden="0" type="field" name="OAmerIndia"/>
+          <column width="-1" hidden="0" type="field" name="Hungarian"/>
+          <column width="-1" hidden="0" type="field" name="Arabic"/>
+          <column width="-1" hidden="0" type="field" name="Hebrew"/>
+          <column width="-1" hidden="0" type="field" name="African"/>
+          <column width="-1" hidden="0" type="field" name="OOther"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="CTLabel" expression=""/>
+        <default field="BoroCode" expression=""/>
+        <default field="BoroName" expression=""/>
+        <default field="CT2010" expression=""/>
+        <default field="BoroCT2010" expression=""/>
+        <default field="CDEligibil" expression=""/>
+        <default field="NTACode" expression=""/>
+        <default field="NTAName" expression=""/>
+        <default field="PUMA" expression=""/>
+        <default field="Shape_Leng" expression=""/>
+        <default field="Shape_Area" expression=""/>
+        <default field="Census_ID" expression=""/>
+        <default field="Total" expression=""/>
+        <default field="Spanish" expression=""/>
+        <default field="French" expression=""/>
+        <default field="FrCreole" expression=""/>
+        <default field="Italian" expression=""/>
+        <default field="Portuguese" expression=""/>
+        <default field="German" expression=""/>
+        <default field="Yiddish" expression=""/>
+        <default field="OWGermanic" expression=""/>
+        <default field="Scandinavi" expression=""/>
+        <default field="Greek" expression=""/>
+        <default field="Russian" expression=""/>
+        <default field="Polish" expression=""/>
+        <default field="SerbCroat" expression=""/>
+        <default field="OSlavic" expression=""/>
+        <default field="Armenian" expression=""/>
+        <default field="Persian" expression=""/>
+        <default field="Gujarati" expression=""/>
+        <default field="Hindi" expression=""/>
+        <default field="Urdu" expression=""/>
+        <default field="OIndic" expression=""/>
+        <default field="OIndoEuro" expression=""/>
+        <default field="Chinese" expression=""/>
+        <default field="Japanese" expression=""/>
+        <default field="Korean" expression=""/>
+        <default field="MonKhmer" expression=""/>
+        <default field="Hmong" expression=""/>
+        <default field="Thai" expression=""/>
+        <default field="Laotian" expression=""/>
+        <default field="Vietnamese" expression=""/>
+        <default field="OAsian" expression=""/>
+        <default field="Tagalog" expression=""/>
+        <default field="OPacIsland" expression=""/>
+        <default field="Navajo" expression=""/>
+        <default field="OAmerIndia" expression=""/>
+        <default field="Hungarian" expression=""/>
+        <default field="Arabic" expression=""/>
+        <default field="Hebrew" expression=""/>
+        <default field="African" expression=""/>
+        <default field="OOther" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "BoroName", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>nycTracts_clip20180426212613918</id>
+      <datasource>../Data/Shape/Part2/nycTracts_clip.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>nycTracts_clip</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>245</srsid>
+          <srid>2263</srid>
+          <authid>EPSG:2263</authid>
+          <description>NAD83 / New York Long Island (ftUS)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="CTLabel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BoroCode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BoroName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CT2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BoroCT2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CDEligibil">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NTACode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NTAName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PUMA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Leng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Census_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Total">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AreaClip">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Proportion">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Pop_est">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="162,102,118,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -214,11 +650,15 @@
         <alias field="Shape_Area" index="10" name=""/>
         <alias field="Census_ID" index="11" name=""/>
         <alias field="Total" index="12" name=""/>
+        <alias field="Area" index="13" name=""/>
+        <alias field="AreaClip" index="14" name=""/>
+        <alias field="Proportion" index="15" name=""/>
+        <alias field="Pop_est" index="16" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1953057971">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="CTLabel"/>
           <column width="-1" hidden="0" type="field" name="BoroCode"/>
@@ -233,45 +673,7 @@
           <column width="-1" hidden="0" type="field" name="Shape_Area"/>
           <column width="-1" hidden="0" type="field" name="Census_ID"/>
           <column width="-1" hidden="0" type="field" name="Total"/>
-          <column width="-1" hidden="0" type="field" name="Spanish"/>
-          <column width="-1" hidden="0" type="field" name="French"/>
-          <column width="-1" hidden="0" type="field" name="FrCreole"/>
-          <column width="-1" hidden="0" type="field" name="Italian"/>
-          <column width="-1" hidden="0" type="field" name="Portuguese"/>
-          <column width="-1" hidden="0" type="field" name="German"/>
-          <column width="-1" hidden="0" type="field" name="Yiddish"/>
-          <column width="-1" hidden="0" type="field" name="OWGermanic"/>
-          <column width="-1" hidden="0" type="field" name="Scandinavi"/>
-          <column width="-1" hidden="0" type="field" name="Greek"/>
-          <column width="-1" hidden="0" type="field" name="Russian"/>
-          <column width="-1" hidden="0" type="field" name="Polish"/>
-          <column width="-1" hidden="0" type="field" name="SerbCroat"/>
-          <column width="-1" hidden="0" type="field" name="OSlavic"/>
-          <column width="-1" hidden="0" type="field" name="Armenian"/>
-          <column width="-1" hidden="0" type="field" name="Persian"/>
-          <column width="-1" hidden="0" type="field" name="Gujarati"/>
-          <column width="-1" hidden="0" type="field" name="Hindi"/>
-          <column width="-1" hidden="0" type="field" name="Urdu"/>
-          <column width="-1" hidden="0" type="field" name="OIndic"/>
-          <column width="-1" hidden="0" type="field" name="OIndoEuro"/>
-          <column width="-1" hidden="0" type="field" name="Chinese"/>
-          <column width="-1" hidden="0" type="field" name="Japanese"/>
-          <column width="-1" hidden="0" type="field" name="Korean"/>
-          <column width="-1" hidden="0" type="field" name="MonKhmer"/>
-          <column width="-1" hidden="0" type="field" name="Hmong"/>
-          <column width="-1" hidden="0" type="field" name="Thai"/>
-          <column width="-1" hidden="0" type="field" name="Laotian"/>
-          <column width="-1" hidden="0" type="field" name="Vietnamese"/>
-          <column width="-1" hidden="0" type="field" name="OAsian"/>
-          <column width="-1" hidden="0" type="field" name="Tagalog"/>
-          <column width="-1" hidden="0" type="field" name="OPacIsland"/>
-          <column width="-1" hidden="0" type="field" name="Navajo"/>
-          <column width="-1" hidden="0" type="field" name="OAmerIndia"/>
-          <column width="-1" hidden="0" type="field" name="Hungarian"/>
-          <column width="-1" hidden="0" type="field" name="Arabic"/>
-          <column width="-1" hidden="0" type="field" name="Hebrew"/>
-          <column width="-1" hidden="0" type="field" name="African"/>
-          <column width="-1" hidden="0" type="field" name="OOther"/>
+          <column width="-1" hidden="0" type="field" name="Area"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
@@ -301,12 +703,16 @@
         <default field="Shape_Area" expression=""/>
         <default field="Census_ID" expression=""/>
         <default field="Total" expression=""/>
+        <default field="Area" expression=""/>
+        <default field="AreaClip" expression=""/>
+        <default field="Proportion" expression=""/>
+        <default field="Pop_est" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "BoroName", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>nyctracts_popjoined20180426205109681</id>
-      <datasource>../Broken/Data/Shape/Part2/nyctracts_popjoined.shp</datasource>
+      <datasource>../Data/Shape/Part2/nyctracts_popjoined.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -370,6 +776,9 @@
         <edittype widgetv2type="TextEdit" name="Total">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -419,7 +828,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="CTLabel" index="0" name=""/>
         <alias field="BoroCode" index="1" name=""/>
@@ -434,11 +843,12 @@
         <alias field="Shape_Area" index="10" name=""/>
         <alias field="Census_ID" index="11" name=""/>
         <alias field="Total" index="12" name=""/>
+        <alias field="Area" index="13" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-1491075072">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;BoroCode&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="CTLabel"/>
           <column width="-1" hidden="0" type="field" name="BoroCode"/>
@@ -456,10 +866,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -482,12 +892,13 @@
         <default field="Shape_Area" expression=""/>
         <default field="Census_ID" expression=""/>
         <default field="Total" expression=""/>
+        <default field="Area" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "BoroName", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>stationbuffers20180426210012073</id>
-      <datasource>../Broken/Data/Shape/Part2/stationbuffers.shp</datasource>
+      <datasource>../Data/Shape/Part2/stationbuffers.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -657,7 +1068,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="Division" index="0" name=""/>
         <alias field="Line" index="1" name=""/>
@@ -695,13 +1106,13 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1789088918">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -754,7 +1165,7 @@
         <ymax>268518.23720020859036595</ymax>
       </extent>
       <id>subway_entrances_may201620180426204828944</id>
-      <datasource>../Broken/Data/Shape/subway_entrances_may2016.shp</datasource>
+      <datasource>../Data/Shape/subway_entrances_may2016.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -931,7 +1342,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="Division" index="0" name=""/>
         <alias field="Line" index="1" name=""/>
@@ -969,13 +1380,13 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-482743948">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1046,8 +1457,8 @@
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>

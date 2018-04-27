@@ -43,31 +43,44 @@ First, we would like to know which tracts have more than 15000 people living in 
 
 * Select the `Population` Column from the Fields List
 * Write the following equation:
-	 "Population" > 15000
+	 "Total" > 12000
 * **Click** `Select` and then `OK`
 	 
+
+![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_18.png)
+
+
 Click on `Move selection to top`.
 
 ![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_07.png)
 
 
-Which boroughs have census tracts with more than 15,000 people? Do any of those tracts stand out? Where is that tract?
+Which boroughs have census tracts with more than 12,000 people? Do any of those tracts stand out? Which ones?
+
+Save these features as their own layer. Right click on the layer and select `Save As` and make the following selections:
+
+File Name: nyctracts_greater12000
+* YES - Save only selected Features
+* YES - Add saved file to map.
+
+![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_19.png)
 
 Close the Attribute table and navigate to Vector >> Research Tools >> Select By Location
 
 ![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_05.png)
 
-Select features in nyctracts_popJoin that intersect features in subwaybuffers
+Select features in stationbuffers that interset features in nyctracts_greater12000
 
-Select the first and the last options (include input features that intersect the selection features) and (Only selected features).
+Select the first option (include input features that intersect the selection features).
 
-IMAGE
+![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_20.png)
+
+Open the Attribute table to see which stations those are. 
 
 This tells us what subway stations serve those highly populated census tracts. What stations are they?
 
-Deselect all features
+Deselect all features ![vector](https://github.com/michellejm/Intro-QGIS-CUNY-FemSTEM/blob/master/Images/femstem02_21.png)
 
-IMAGE
 
 
 #### Our Question

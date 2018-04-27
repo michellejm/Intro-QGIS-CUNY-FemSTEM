@@ -5,16 +5,19 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="stationbuffers20180426210012073" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/stationbuffers.shp" name="stationbuffers">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="stationbuffers20180426210012073" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/stationbuffers.shp" name="stationbuffers">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="subway_entrances_may201620180426204828944" source="/Users/mam/Workshops/FemSTEM/Data/Shape/subway_entrances_may2016.shp" name="subway_entrances_may2016">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="subway_entrances_may201620180426204828944" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/subway_entrances_may2016.shp" name="subway_entrances_may2016">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="nycTracts_clip20180426212613918" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nycTracts_clip.shp" name="nycTracts_clip">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="nycTracts_clip20180426212613918" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nycTracts_clip.shp" name="nycTracts_clip">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="nyctracts_popjoined20180426205109681" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nyctracts_popjoined.shp" name="nyctracts_popjoined">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="nyctracts_greater1200020180427062416389" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nyctracts_greater12000.shp" name="nyctracts_greater12000">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="nyctracts_popjoined20180426205109681" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/nyctracts_popjoined.shp" name="nyctracts_popjoined">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ACS_5YR_2015_JoinedNYCtracts20180426204806437" source="/Users/mam/Workshops/FemSTEM/Data/Shape/Part2/ACS_5YR_2015_JoinedNYCtracts.geojson" name="ACS_5YR_2015_JoinedNYCtracts OGRGeoJSON MultiPolygon">
@@ -57,12 +60,13 @@
       <item>nyctracts_popjoined20180426205109681</item>
       <item>stationbuffers20180426210012073</item>
       <item>nycTracts_clip20180426212613918</item>
+      <item>nyctracts_greater1200020180427062416389</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="stationbuffers" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="stationbuffers" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="stationbuffers20180426210012073" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="stationbuffers20180426210012073" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="subway_entrances_may2016" showFeatureCount="0">
@@ -70,14 +74,19 @@
         <legendlayerfile isInOverview="0" layerid="subway_entrances_may201620180426204828944" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nycTracts_clip" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nycTracts_clip" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="nycTracts_clip20180426212613918" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="nycTracts_clip20180426212613918" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nyctracts_popjoined" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nyctracts_greater12000" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="nyctracts_popjoined20180426205109681" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="nyctracts_greater1200020180427062416389" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nyctracts_popjoined" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="nyctracts_popjoined20180426205109681" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ACS_5YR_2015_JoinedNYCtracts OGRGeoJSON MultiPolygon" showFeatureCount="0">
@@ -509,6 +518,12 @@
       <previewExpression>COALESCE( "BoroName", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>973953.13453521660994738</xmin>
+        <ymin>147393.88301882130326703</ymin>
+        <xmax>1054093.11714102025143802</xmax>
+        <ymax>269943.21478271484375</ymax>
+      </extent>
       <id>nycTracts_clip20180426212613918</id>
       <datasource>../Data/Shape/Part2/nycTracts_clip.shp</datasource>
       <keywordList>
@@ -635,7 +650,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="CTLabel" index="0" name=""/>
         <alias field="BoroCode" index="1" name=""/>
@@ -677,10 +692,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -711,6 +726,183 @@
       <previewExpression>COALESCE( "BoroName", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>nyctracts_greater1200020180427062416389</id>
+      <datasource>../Data/Shape/Part2/nyctracts_greater12000.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>nyctracts_greater12000</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>245</srsid>
+          <srid>2263</srid>
+          <authid>EPSG:2263</authid>
+          <description>NAD83 / New York Long Island (ftUS)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="CTLabel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BoroCode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BoroName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CT2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BoroCT2010">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CDEligibil">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NTACode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NTAName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PUMA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Leng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Census_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Total">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="68,42,200,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>BoroName</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name=".SF NS Text"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="CTLabel" index="0" name=""/>
+        <alias field="BoroCode" index="1" name=""/>
+        <alias field="BoroName" index="2" name=""/>
+        <alias field="CT2010" index="3" name=""/>
+        <alias field="BoroCT2010" index="4" name=""/>
+        <alias field="CDEligibil" index="5" name=""/>
+        <alias field="NTACode" index="6" name=""/>
+        <alias field="NTAName" index="7" name=""/>
+        <alias field="PUMA" index="8" name=""/>
+        <alias field="Shape_Leng" index="9" name=""/>
+        <alias field="Shape_Area" index="10" name=""/>
+        <alias field="Census_ID" index="11" name=""/>
+        <alias field="Total" index="12" name=""/>
+        <alias field="Area" index="13" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="CTLabel" expression=""/>
+        <default field="BoroCode" expression=""/>
+        <default field="BoroName" expression=""/>
+        <default field="CT2010" expression=""/>
+        <default field="BoroCT2010" expression=""/>
+        <default field="CDEligibil" expression=""/>
+        <default field="NTACode" expression=""/>
+        <default field="NTAName" expression=""/>
+        <default field="PUMA" expression=""/>
+        <default field="Shape_Leng" expression=""/>
+        <default field="Shape_Area" expression=""/>
+        <default field="Census_ID" expression=""/>
+        <default field="Total" expression=""/>
+        <default field="Area" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>913175.1090087890625</xmin>
+        <ymin>120121.8812543376989197</ymin>
+        <xmax>1067382.5084228515625</xmax>
+        <ymax>272844.29400634765625</ymax>
+      </extent>
       <id>nyctracts_popjoined20180426205109681</id>
       <datasource>../Data/Shape/Part2/nyctracts_popjoined.shp</datasource>
       <keywordList>
@@ -848,7 +1040,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;BoroCode&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;CTLabel&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="CTLabel"/>
           <column width="-1" hidden="0" type="field" name="BoroCode"/>
@@ -1165,7 +1357,7 @@
         <ymax>268518.23720020859036595</ymax>
       </extent>
       <id>subway_entrances_may201620180426204828944</id>
-      <datasource>../Data/Shape/subway_entrances_may2016.shp</datasource>
+      <datasource>../Data/Shape/Part2/subway_entrances_may2016.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
